@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HousingLocationInfo } from './housing-location';
+import { HousingLocationInfo } from '../../../../libs/interfaces/housing-location';
 
 @Injectable({
   providedIn: "root",

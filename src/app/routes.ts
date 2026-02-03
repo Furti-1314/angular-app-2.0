@@ -1,6 +1,6 @@
 import {Routes} from '@angular/router';
-import {HomeComponent} from './home/home';
-import {Details} from './details/details';
+import {HomeComponent} from './components/home/home';
+import {Details} from './components/details/details';
 
 // the array represents the routes in the application
 const routeConfig: Routes = [
