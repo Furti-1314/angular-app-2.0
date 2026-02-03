@@ -1,5 +1,5 @@
 import { Component, input } from '@angular/core';
-import { HousingLocationInfo } from 'libs/interfaces/housing-location';
+import { HousingLocationInfo } from 'src/app/core/models/housing-location';
 import { RouterLink, RouterOutlet } from '@angular/router';
 
 @Component({

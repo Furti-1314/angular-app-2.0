@@ -1,7 +1,7 @@
 import {ChangeDetectorRef, Component, inject } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { HousingService } from '../../core/services/housing.service';
-import { HousingLocationInfo}  from '../../../../libs/interfaces/housing-location';
+import { HousingLocationInfo}  from '../../core/models/housing-location';
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
 
 @Component({

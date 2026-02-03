@@ -1,5 +1,5 @@
-// interface that defines data about a housing location
-export interface HousingLocationInfo {
+//type that defines data about a housing location
+export type HousingLocationInfo = {
   id: number;
   name: string;
   city: string;

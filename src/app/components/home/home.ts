@@ -1,6 +1,6 @@
 import { ChangeDetectorRef, Component, inject } from '@angular/core';
 import {HousingLocation} from '../housing-location/housing-location';
-import { HousingLocationInfo } from 'libs/interfaces/housing-location';
+import { HousingLocationInfo } from 'src/app/core/models/housing-location';
 import { HousingService } from 'src/app/core/services/housing.service'; 
 
 @Component({
